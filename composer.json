@@ -1,0 +1,22 @@
+{
+    "name": "jamesclavel/slim4",
+    "description": "learning slim4 for building APIs",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Clavel",
+            "email": "jamesclavel@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "tuupola/slim-basic-auth": "^3.3",
+        "vlucas/phpdotenv": "^5.4",
+        "gabordemooij/redbean": "dev-master"
+    }
+}
